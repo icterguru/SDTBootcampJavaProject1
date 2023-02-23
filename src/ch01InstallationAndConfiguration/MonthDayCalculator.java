@@ -1,4 +1,4 @@
-package installationAndConfiguration;
+package ch01InstallationAndConfiguration;
 /**
  * MonthDayCalculator.java
  */

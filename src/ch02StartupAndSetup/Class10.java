@@ -1,5 +1,5 @@
 /* C:\javacode\Chap13\Pack10\Class10.java */
-package chapter13;
+package ch02StartupAndSetup;
 class Student   // Base class
   {
   int    Roll; 
