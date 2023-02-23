@@ -1,4 +1,4 @@
-package chapter15;
+package ch14IOAndFileOperations;
 /* J15_01.java   */
 /* Opening a New Data File  */
 import java.io.*; // Required for FileWriter Class
