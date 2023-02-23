@@ -1,14 +1,14 @@
-package chapter11;
+package ch11InheritanceAndAbstraction;
 // VehicleHierarchyEx1.java
-interface Vehicle{
+interface VehicleB{
 	boolean hasAnEngine= true;
 	public void vehicleInfo();
 }
-class Car implements Vehicle {
+class CarB implements VehicleB {
 	String vehicleInfo;
 	int  maxSpeed;
 	int  maxCapacity;
-	Car(String carInfo){
+	CarB(String carInfo){
 		this.vehicleInfo = carInfo;
 	}
 	
@@ -19,12 +19,12 @@ class Car implements Vehicle {
 
 }
 
-class Truck implements Vehicle {
+class TruckB implements VehicleB {
 	String vehicleInfo;
 	int  maxSpeed=0;
 	int  maxLoad=0;
 
-	Truck(String truckInfo){
+	TruckB(String truckInfo){
 		this.vehicleInfo = truckInfo;
 	}
 
@@ -37,11 +37,11 @@ class Truck implements Vehicle {
 
 public class VehicleHierarchyEx1 {
 	public static void main(String[]  args) {
-		Car myCar1 = new Car("Toyota Camry 2016");
+		CarB myCar1 = new CarB("Toyota Camry 2016");
 		myCar1.vehicleInfo();
-		Car myCar2 = new Car("Maruti Swift 2015");
+		CarB myCar2 = new CarB("Maruti Swift 2015");
 		myCar2.vehicleInfo();
-		Truck myTruck1 = new Truck("Ford Focus-150 2016");
+		TruckB myTruck1 = new TruckB("Ford Focus-150 2016");
 		myTruck1.vehicleInfo();
 
 	}

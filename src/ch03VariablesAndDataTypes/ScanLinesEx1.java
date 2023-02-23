@@ -1,4 +1,4 @@
-package chapter03;
+package ch03VariablesAndDataTypes;
 // ScanLinesEx1.java
 import java.io.IOException;
 import java.util.Scanner;

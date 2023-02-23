@@ -1,7 +1,6 @@
-package chapter11;
+package ch11InheritanceAndAbstraction;
 /* ExtendingAnInterface.java	*/
 /* Extending Multiple Interfaces */
-
 
 /**
  * @author HossaiM
@@ -37,7 +36,6 @@ class MyClass3 implements Interface2{
 		System.out.println("Inside displayMsg2()...");
 
 	}
-
 
 }
 

@@ -1,4 +1,4 @@
-package chapter07;
+package ch07StringOperations;
 //  StringReferenceEx2.java
 
 class Address {

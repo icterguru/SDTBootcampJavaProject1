@@ -1,4 +1,4 @@
-package test_programs;
+package ch20MiscPrograms;
 /* J02_03.java   */
 /* A Command Line Argumented Program */
 

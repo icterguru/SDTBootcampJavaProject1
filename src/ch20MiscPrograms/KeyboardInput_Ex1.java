@@ -1,4 +1,4 @@
-package test_programs;
+package ch20MiscPrograms;
 /* J06_08.java */
 /*  Assigning value to array elements through keyboard */
 import java.util.Scanner;

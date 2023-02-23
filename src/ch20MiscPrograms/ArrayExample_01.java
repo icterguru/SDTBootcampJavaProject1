@@ -1,5 +1,5 @@
-package test_programs;
-/* J06_01.java */
+package ch20MiscPrograms;
+
 /*  Assigning value to array elements */
 
 public class ArrayExample_01{

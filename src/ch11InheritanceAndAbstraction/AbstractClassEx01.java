@@ -1,4 +1,4 @@
-package chapter11;
+package ch11InheritanceAndAbstraction;
 /* AbstractClassEx01.java */
 /* Inheriting Abstract Base class/ Abstract Member */
 

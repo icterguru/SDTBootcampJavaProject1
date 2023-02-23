@@ -1,4 +1,4 @@
-package chapter08;
+package ch08ArrayListCollections;
 //ArrayListEx2.java
 
 import java.util.*;

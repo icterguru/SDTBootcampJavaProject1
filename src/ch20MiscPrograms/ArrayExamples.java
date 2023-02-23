@@ -1,4 +1,4 @@
-package abcPackage;
+package ch20MiscPrograms;
 //Mike Scott
 //examples of array manipulations
 

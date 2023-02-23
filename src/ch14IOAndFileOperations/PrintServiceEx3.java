@@ -1,4 +1,4 @@
-package chapter15;
+package ch14IOAndFileOperations;
 // PrintServiceEx3.java
 import javax.print.DocFlavor;
 import javax.print.PrintService;
@@ -20,7 +20,6 @@ public class PrintServiceEx3 {
 			if (!services[i].isDocFlavorSupported(flavor)) {
 				System.err.println("The printer does not support the appropriate DocFlavor");
 			}
-
 		}
 
 		PrintService svc = PrintServiceLookup.lookupDefaultPrintService();

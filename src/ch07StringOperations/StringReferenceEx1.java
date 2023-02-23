@@ -1,4 +1,4 @@
-package chapter07;
+package ch07StringOperations;
 //  StringReferenceEx1.java
 // Using String Reference
 

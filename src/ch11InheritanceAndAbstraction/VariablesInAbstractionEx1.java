@@ -1,4 +1,4 @@
-package chapter11;
+package ch11InheritanceAndAbstraction;
 // VariablesInAbstractionEx1.java
 // Using Variables in Abstract Class and Interface
 
@@ -28,7 +28,7 @@ class DerivedVA extends BaseAbstract1 implements BaseInterface1{
 		System.out.println("For interface....");
 		System.out.println("Before change y = " + y);
 		// y = 20; // Change of y is NOT allowed
-		System.out.println("Change of interface variable is not allowed);
+		System.out.println("Change of interface variable is not allowed");
 	}
 }
 

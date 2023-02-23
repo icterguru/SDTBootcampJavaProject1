@@ -1,13 +1,13 @@
-package chapter11;
+package ch11InheritanceAndAbstraction;
 // VehicleEngineEx1.java
-	interface Vehicle{
+	interface VehicleA{
 		boolean hasAnEngine= true;
 		public void vehicleInfo();
 	}
 
-	class Engine {
+	class EngineA {
 		String engineInfo;
-		Engine (String engineType)
+		EngineA (String engineType)
 		{
 			this.engineInfo = engineType;
 		}
@@ -20,11 +20,11 @@ package chapter11;
 		}
 	}
 
-	class Car implements Vehicle {
+	class CarA implements VehicleA {
 		String engineInfo;
 		String carInfo;
-		Car (Engine engineInfo, String carInfo){
-			engineInfo = new Engine(this.engineInfo);
+		CarA (EngineA engineInfo, String carInfo){
+			engineInfo = new EngineA(this.engineInfo);
 			this.carInfo = carInfo ;
 		}
 
@@ -42,21 +42,21 @@ package chapter11;
 	public class VehicleEngineEx1 {
 		public static void main(String[]  args) {
 
-		Engine 	myCarEngine= new Engine("6-Cylinder Hybrid");
-		Car 	myCar = new Car(myCarEngine, "Toyota Camry 2016");
+		EngineA 	myCarEngine= new EngineA("6-Cylinder Hybrid");
+		CarA 	myCar = new CarA(myCarEngine, "Toyota Camry 2016");
 
 		myCarEngine.engineInfo();
 		myCar.vehicleInfo();
 
 		System.out.println();
-		Engine my2ndCarEngine= new Engine("4-Cylinder");
-		Car my2ndCar = new Car(my2ndCarEngine, null);
+		EngineA my2ndCarEngine= new EngineA("4-Cylinder");
+		CarA my2ndCar = new CarA(my2ndCarEngine, null);
 		my2ndCarEngine.engineInfo();
 		my2ndCar.vehicleInfo();
 
 		System.out.println();
-		Engine myNextCarEngine= null;
-		Car myNextCar = new Car(myNextCarEngine, null);
+		EngineA myNextCarEngine= null;
+		CarA myNextCar = new CarA(myNextCarEngine, null);
 		myNextCar.vehicleInfo();
 
 		// myNextCarEngine.engineInfo(); // NOT ALLOWED

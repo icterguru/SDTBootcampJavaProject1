@@ -1,4 +1,4 @@
-package chapter08;
+package ch08ArrayListCollections;
 // ArrayListEx1.java
 // http://www.tutorialspoint.com/java/java_arraylist_class.htm
 

@@ -1,4 +1,4 @@
-package chapter11;
+package ch11InheritanceAndAbstraction;
 /* ImplementingMultipleInterfaces.java	*/
 /* Implementing Multiple Interfaces */
 

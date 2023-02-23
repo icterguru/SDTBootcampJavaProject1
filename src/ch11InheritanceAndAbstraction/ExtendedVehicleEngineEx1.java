@@ -1,4 +1,4 @@
-package chapter11;
+package ch11InheritanceAndAbstraction;
 //
 // ExtendedVehicleEngineEx1.java
 interface Vehicle{
@@ -24,7 +24,7 @@ class Engine {
 	}
 }
 
-class Car implements Vehicle {
+class Car implements VehicleA {
 	String cengine;
 	int  maxSpeed=0;
 

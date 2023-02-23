@@ -1,4 +1,4 @@
-package chapter03;
+package ch03VariablesAndDataTypes;
 /* ReadLinesEx1.java */
 /* Array of String Variable */
 import  java.io.*; 

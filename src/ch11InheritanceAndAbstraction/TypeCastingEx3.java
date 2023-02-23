@@ -1,4 +1,4 @@
-package chapter11;
+package ch11InheritanceAndAbstraction;
 // TypeCastingEx3.java
 
 public class TypeCastingEx3{

@@ -1,4 +1,4 @@
-package chapter08;
+package ch08ArrayListCollections;
 //VectorEx1.java
 
 import java.util.*;

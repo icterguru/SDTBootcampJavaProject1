@@ -1,4 +1,4 @@
-package chapter03;
+package ch03VariablesAndDataTypes;
 /* ByteEx1.java */
 /* ERROR IN RUNNING */
  public class ByteEx1{

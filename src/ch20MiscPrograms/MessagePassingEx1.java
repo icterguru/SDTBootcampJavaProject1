@@ -1,4 +1,4 @@
-package abcPackage;
+package ch20MiscPrograms;
 
 /* MessagePassingEx1.java    */
 /* MessagePassing */

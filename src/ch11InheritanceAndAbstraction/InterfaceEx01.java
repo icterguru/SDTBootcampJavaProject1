@@ -1,4 +1,4 @@
-package chapter11;
+package ch11InheritanceAndAbstraction;
 /* InterfaceEx01.java	*/
 /* Implementing Interface*/
 

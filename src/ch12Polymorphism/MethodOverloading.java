@@ -1,4 +1,4 @@
-package chapter12;
+package ch12Polymorphism;
 
  class Overloading
 {
@@ -36,14 +36,14 @@ package chapter12;
        Overloading Obj = new Overloading();
         double result;
         
-        Obj .demo("Mokter Hossain");
+        Obj.demo("Mokter Hossain");
         
-        Obj .demo(10, 20);
+        Obj.demo(10, 20);
 
-        Obj .demo(1000);
-        Obj .demo(10.00f);
+        Obj.demo(1000);
+        Obj.demo(10.00f);
         
-        result = Obj .demo(5.5);
+        result = Obj.demo(5.5);
         System.out.println("O/P : " + result);
     }
 }

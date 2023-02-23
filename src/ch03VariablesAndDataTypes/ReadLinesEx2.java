@@ -1,4 +1,4 @@
-package chapter03;
+package ch03VariablesAndDataTypes;
 /* ReadLinesEx2.java */
 /* Example of readLine() Method */
 import  java.io.*; 
