@@ -1,12 +1,11 @@
-/* C:\javacode\Chap13\Pack10\Class10.java */
-package ch02StartupAndSetup;
-class Student   // Base class
+package ch09ClassAndObjects;
+class StudentClass10   // Base class
   {
   int    Roll; 
   String Name;
   }  
 
-public class Class10 extends Student
+public class Class10 extends StudentClass10
   {
   float Mark;  	
   public  void setData()

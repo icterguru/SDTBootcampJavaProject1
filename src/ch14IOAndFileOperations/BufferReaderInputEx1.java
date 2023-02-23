@@ -1,8 +1,7 @@
-package chapter13;
-/* J13_02.java 	*/
+package ch14IOAndFileOperations;
 /*  Finding Square Root of and Integer Number  */
 import java.io.*;  // Used for readLine() Method
- public class J13_02{
+ public class BufferReaderInputEx1{
 public static void main(String args[]) throws IOException {
  int x;  double y; 
  String S;

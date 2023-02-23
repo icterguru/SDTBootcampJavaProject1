@@ -1,10 +1,9 @@
-package chapter02;
+package ch02StartupAndSetup;
 
-/* 1. */ /* J02_01.java */
+/* 1. */ /* HelloWorld.java */
 /* 2. */ /* A Sample Java Application Program */
 
-/* 3. */ class J02_01		
-/* 4. */ {
+/* 3. */ class HelloWorld {
 
 /* 5. */ public static void main(String args[])
 /* 6. */ {			

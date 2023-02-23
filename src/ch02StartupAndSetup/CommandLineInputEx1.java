@@ -1,8 +1,8 @@
-package chapter02;
+package ch02StartupAndSetup;
 /* J02_03.java   */
 /* A Command Line Argumented Program */
 
-public class J02_03{
+public class CommandLineInputEx1{
 
 public static void main (String[] args )
 {	

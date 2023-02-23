@@ -1,7 +1,7 @@
-package JavaBook1Codes;
+package ch02StartupAndSetup;
 
 
-public class J02_00 {
+public class HelloWorldEx1 {
 
 	public static void main(java.lang.String args[]) {
 		
